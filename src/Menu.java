@@ -57,7 +57,7 @@ public class Menu {
 
         System.out.println("Dame la descripcion de la tarea");
 
-        String descripcion = in.next();
+        String descripcion = in.nextLine();
 
         lista.add(new Tarea(contador++, descripcion));
 
